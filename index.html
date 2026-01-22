@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horaires Fablio</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+<meta name="theme-color" content="#1e293b">
+</head>
+
+<body>
+
+<header>🚌 Réseau Fablio</header>
+
+<nav>
+  <button onclick="showTab('mamie')">Vers Mamie</button>
+  <button onclick="showTab('gare')">Vers Gare</button>
+  <button onclick="showTab('search')">Recherche</button>
+</nav>
+
+<main>
+  <section id="mamie" class="tab"></section>
+  <section id="gare" class="tab"></section>
+  <section id="search" class="tab"></section>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/gtfs.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>
