@@ -1,0 +1,11 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+01A_1,Fablio,01A,Ligne 01A_Bezu Mairie,3,0000FF,FFFFFF
+01B_1,Fablio,01B,Ligne 01B_Gare SNCF,3,0000FF,FFFFFF
+02_1,Fablio,02,Ligne 02_Gare SNCF <> L'Horloge,3,FF8000,FFFFFF
+03_1,Fablio,03,Ligne 03_Brasles Mairie,3,8000FF,FFFFFF
+04A_1,Fablio,04A,Ligne 04A_Blesmes Mairie,3,00FF00,000000
+04B_1,Fablio,04B,Ligne 04B_Essommes vaux,3,008000,FFFFFF
+NAVF1_1,Fablio,NAVF1,Navette F1_Gare SNCF,3,FF0000,FFFFFF
+NAVF2_1,Fablio,NAVF2,Navette F2_Gare SNCF,3,FF0000,FFFFFF
+NF1_1,Fablio,NF1,Navette F+1_Gare SNCF,3,FF0000,FFFFFF
+NF2_1,Fablio,NF2,Navette F+2_Gare SNCF,3,FF0000,FFFFFF
